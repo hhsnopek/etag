@@ -21,9 +21,9 @@
 //        return
 //      }
 //
-//      etag := etag.Generate(body, true)
+//      e := etag.Generate(body, true)
 //      w.Header().Set("Content-Type", "application/json")
-//      w.Header().Set("Etag", etag)
+//      w.Header().Set("Etag", e)
 //      w.WriteHeader(http.StatusOK)
 //      w.Write(body)
 //      return
