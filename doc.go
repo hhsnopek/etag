@@ -15,7 +15,7 @@
 //    }
 //
 //    func FooHandler(w http.ResponseWriter, r *http.Request) {
-//      body, err := json.Marshal(&Foot{Bar: "baz"})
+//      body, err := json.Marshal(&Foo{Bar: "baz"})
 //      if err != nil {
 //        http.Error(w, http.StatusText(http.StatusInternalServerError), http.StatusInternalServerError)
 //        return
